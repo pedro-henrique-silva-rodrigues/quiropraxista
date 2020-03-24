@@ -9,10 +9,238 @@ body {
 }
 /*local*/
 #enderço {
-    margin-left: 60%;
-    margin-top: 60px;
+    margin-left: 45%;
+    margin-top: -77px;
 }
 .log p {
     text-align: center;
     margin-top: -74px;
+}
+#text {
+    margin-top: -15px;
+    margin-left: 25%;
+    color:black;
+}
+.menu {
+    height:53px;
+    background-color: lightseagreen;
+}
+.menu ul li {
+  list-style: none;
+  display: inline-flex;
+  margin: 10px;
+  margin-left: 60px;
+}
+.menu ul li:hover {
+    color:#FFF;
+}
+#buto {
+    float: right;
+    margin-top: -46px;
+    margin-right: 32%;
+}
+.bloco-texto h1, h3{
+    float: right;
+    margin-top: -50%;
+    position: relative;
+    margin-right: 13%;
+    color: #FFF;
+}
+.bloco-texto h3 {
+    margin-top: -560px;
+    margin-right: 16%;
+}
+#buton {
+    float: right;
+    margin-top: -33%;
+    position: relative;
+    margin-right: 40%;
+    display: flex;
+}
+/* formulario */
+.formulario {
+    width: 686px;
+    height: 377px;
+    background-color: #01d28e;
+    position: absolute;
+    text-align: center;
+}
+.form {
+    color: #FFF;
+}
+.form h2 {
+    color: #FFF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.form #Campo {
+    margin-left: 20%;
+    margin-top: 24%;
+}
+#phone {
+    margin-left: 370px;
+    margin-top: -19%;
+}
+#inputserviço {
+    margin-top: 20%;
+    margin-left: 20%;
+}
+#profissional {
+    margin-left: 370px;
+    margin-top: -40px;
+}
+#date-id {
+    width:100%;
+    height: 37px;
+    border-radius: 5px;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+#time {
+    margin-left: 370px;
+    margin-top: -25px;   
+}
+.btn-btn-outline-success {
+    width: 306px;
+    height: 50px;
+    margin-top: 14%;
+    margin-left: 69%;
+    border-radius: 2px;
+    color:#FFF;
+    border-color:#6c5ce7;
+    background-color: #6c5ce7
+}
+.info-hora {
+    color: #2d3e50;
+    text-align: right;
+    margin-right: 17%;
+}
+.info-hora h1 {
+    font-size: 1.7rem;
+    margin-top: 2%;
+}
+.info-hora h2 {
+    font-size:1rem;
+    margin-right: 35px;
+    margin-top: 2%;
+    color: #01d28e;
+}
+.info-hora h4 {
+    font-size: small;
+    margin-right: 10px;
+}
+#vacati {
+    text-align: right;
+    margin-right: 4%;
+    color: #01d28e;
+}
+#fone {
+    font-size: 1.7rem;
+    display: block ruby;
+    margin-left: 81%;
+}
+#fone h1 {
+    margin-left: 82%;
+    display: block ruby;
+}
+@media (max-width:1279px){
+    .bloco-texto h3 {
+        top: 20px;
+    }
+@media (max-width:1207px){
+    .bloco-texto h3 {
+        top: 50px;
+    }
+}}
+@media (max-width:1076px){
+    .btn-btn-outline-success{
+       display: none;
+    }
+    .bloco-texto h3{
+        top: 100px;
+        right: 8%;
+            }
+}
+@media (max-width:1000px){
+    #endere {
+        margin-left: 4%;
+    }
+    #text {
+        margin-top: 10px;
+    }
+    .bloco-texto h1 {
+        font-size: 1.9rem;
+        color: #E6E6FA;
+    }
+    .bloco-texto h3 {
+       top: 150px;
+       left: -21px;
+       color: #FFE4E1;
+    }
+    #buton {
+        top: 57px;
+        left: 50px;
+}
+} 
+@media (max-width:768px){
+    .form {
+        flex-direction: column;
+    }
+}
+@media (max-width:530px) {
+    nav {
+        display: block;
+      }
+      .one, 
+      .two,
+      .three{
+        background-color: #fff;
+        height: 5px;
+        width: 100%;
+        margin:6px auto;
+    
+        transition-duration: 0,3s;
+      }
+      .menu-toggle {
+        width: 40px; 
+        height: 30px;
+        margin-right: 20px;
+      }
+    
+      .menu-section.on {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        background-color: #7159c1;  
+        z-index: 10;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 25;
+        top: 15px;
+      }
+      .menu-section.on .menu-toggle .one {
+        transform: rotate(45deg) translate(7px,7px)
+      }
+      .menu-section.on .menu-toggle .two {
+       opacity:0;
+      }
+      .menu-section.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(8px, -9px)
+      }
+      .menu-section.on nav ul {
+        text-align: center;
+        display: block;
+      }
+      .menu-section.on nav ul a{
+        transition-duration:  0.5;
+        font-size: 3rem;
+        line-height: 4rem;
+        display: block;
+      }
 }
