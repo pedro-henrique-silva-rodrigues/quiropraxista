@@ -1,7 +1,10 @@
 {
   "name": "quiropraxista",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "serve.js",
+  "scripts": {
+    "dev": "nodemon src/serve.js"
+  },
   "repository": "https://github.com/pedro-henrique1/quiropraxista.git",
   "author": "pedro henrique <ph8464803@gmail.com>",
   "license": "MIT",
